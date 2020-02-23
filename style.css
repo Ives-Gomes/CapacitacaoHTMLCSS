@@ -22,6 +22,7 @@ body {
 .nav__botoes {
     margin-left: 15%;
     margin-top: 4%;
+    cursor: pointer;
 }
 
 .botoes__option {
@@ -31,13 +32,14 @@ body {
     color: gray;
     margin-right: 5px;
     margin-left: 5px;
+    cursor: pointer;
 }
 
 .botoes__option:hover {
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 120%;
-    color: red;
+    color: blue;
     margin-right: 5px;
     margin-left: 5px;
 }
@@ -45,6 +47,7 @@ body {
 .nav__botao {
     margin-left: 4%;
     margin-top: 2%;
+    cursor: pointer;
 }
 
 .botao__botao {
@@ -57,6 +60,7 @@ body {
     font-size: 18px;
     color: white;
     padding: 20px;
+    cursor: pointer;
 }
 
 .botao__botao:hover {
@@ -181,6 +185,7 @@ body {
     margin-left: 70%;
     margin-top: 1%;
     position: relative;
+    cursor: pointer;
 }
 
 .sobre__botao__botao:hover {
@@ -267,6 +272,7 @@ body {
 
 }
 
+/* ATUAÇÃO */
 
 .atuacao__h2 {
     color: #043f5f;
@@ -326,6 +332,7 @@ body {
     margin-left: 45%;
     margin-top: 5%;
     position: relative;
+    cursor: pointer;
 }
 
 
@@ -424,6 +431,7 @@ body {
     margin-left: 50%;
     margin-top: 5%;
     position: relative;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 850px) {
@@ -444,6 +452,7 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    cursor: default;
 
 }
 .filtro {
