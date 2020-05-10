@@ -81,8 +81,7 @@
 }
 
 .filter__home {
-	background-color: #000;
-	opacity: 0.82;
+	background-color: rgba(0, 0, 0, 0.82);
 	width: 100%;
 	height: 100%;
 }
@@ -110,7 +109,6 @@
 	cursor: pointer;
 	margin-left: 230px;
 	margin-top: 28px;
-	z-index: 1;
 }
 
 .button__home:hover {
@@ -368,6 +366,7 @@
 
 .conteudo__div button {
 	font-family: Arial, sans-serif;
+	background-color: #fff;
 	color: #75141D;
     border-style: solid;
     border-width: 1px 1px 1px 1px;
@@ -386,6 +385,7 @@
 	font-size: 14px;
 	font-family: "Roboto", sans-serif;
 	font-weight: 500;
+	background-color: #fff;
 	color: #75141D;
     border-style: solid;
     border-width: 1px 1px 1px 1px;
@@ -400,4 +400,298 @@
 	background-color: #75141D;
 	transition: .3s;
 	cursor: pointer;
+}
+
+/* BLOG */
+.blog {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.blog h2 {
+	text-align: center;
+	margin: 100px 100px 80px;
+	font-size: 35px;
+	font-weight: 600;
+	color: #54595F;
+	font-family: "Montserrat", sans-serif;
+}
+
+.blog__conteudo {
+	display: flex;
+	flex-direction: row;
+}
+
+.blog__div {
+	width: 260px;
+	height: 542px;
+	border: 1px solid #CCCCCC;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	margin: 0 10px;
+	align-items: center;
+}
+
+.blog__img1 {
+	width: 260px;
+	height: 144px;
+}
+
+.blog__img2 {
+	width: 260px;
+	height: 173px;
+}
+
+.blog__img3 {
+	width: 260px;
+	height: 124px;
+}
+
+.blog__img4 {
+	width: 260px;
+	height: 173px;
+}
+
+.blog__espaco {
+	padding: 15px 5px 0px;
+}
+
+.blog__div h3 {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: #4D4D4D;
+	margin: 0px 10px 20px;
+	text-align: center;
+}
+
+.blog__div p {
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #54595f;
+	line-height: 24px;
+	margin-left: 5px;
+	margin-right: 26px;
+}
+
+.blog__button {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.blog__div button {
+	font-family: Arial, sans-serif;
+	background-color: #fff;
+	color: #75141D;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #75141D;
+    padding: 8px 20px;
+}
+
+.blog__div button:hover {
+	color: white;
+	background-color: #75141D;
+	transition: .3s;
+	cursor: pointer;
+}
+
+/* CARROSSEL */
+.carrossel {
+	width: 100%;
+	height: 300px;
+	background-image: url(img/carrossel.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 40px;
+}
+
+.carrossel__filter {
+	background-color: rgba(84, 89, 95, 0.75);
+	width: 100%;
+	height: 100%;
+}
+
+.carrossel__itens {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.carrossel__item img {
+	width: 150px;
+	height: 150px;
+	opacity: 1;
+	margin: 0px 92px;
+	padding-top: 80px;
+}
+
+/* CONTATO */
+.contato {
+	background-color: #202020;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contato h2 {
+	color: #fff;
+	font-size: 35px;
+	font-weight: 600;
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 35px;
+}
+
+.contato h2 span {
+	color: #75141d;
+}
+
+.contato p {
+	color: #929292;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: "Roboto", sans-serif;
+}
+
+.contato p span, .contato__form label span {
+	color: #E80000;
+}
+
+.contato__conteudo {
+	padding: 30px;
+}
+
+.contato__form {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	padding: 6px;
+}
+
+.contato__form label {
+	color: #DCDCDC;
+	font-size: 18px;
+	font-weight: 600;
+	font-family: "Roboto", sans-serif;
+	margin: 5px 0 10px 0;
+}
+
+.contato__form input {
+	padding: 16px;
+	border: none;
+	outline: none;
+	margin-bottom: 20px;
+}
+
+.contato__form textarea {
+	height: 170px;
+	padding: 12px;
+	resize: vertical;
+	border: none;
+	outline: none;
+}
+
+.contato__form button {
+	padding: 14px 24px;
+	color: #fff;
+	background-color: #75141D;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	border: none;
+	margin-right: 370px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+.contato__form button:hover {
+	background-color: #4a0d13;
+	transition: .3s;
+}
+
+.contato img {
+	margin-top: 15px;
+}
+
+.contato__endereco {
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.contato__endereco p {
+	margin-right: 60px;
+	text-align: center;
+	line-height: 24px;
+}
+
+.contato__endereco p, .contato__tel p {
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.contato__redes {
+	display: flex;
+	flex-direction: row;
+}
+
+.contato__social {
+	width: 40px;
+ 	height: 40px;
+	background-color: #fff;
+	border-radius: 50%;
+	margin-right: 6px;
+	margin-top: 10px;
+	cursor: pointer;
+	transition: transform .2s;
+}
+
+.contato__social:hover {
+	transform: scale(0.9);
+}
+
+.contato__social i {
+	color: #202020;
+	font-size: 20px;
+	padding: 11px;
+}
+
+/* FOOTER */
+footer {
+	height: 74px;
+	background-color: #1B1B1B;
+}
+
+.footer__conteudo p {
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	font-family: Arial, sans-serif;
+	padding-top: 26px;
+}
+
+.footer__conteudo p i {
+	color: red;
+}
+
+.footer__conteudo p a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer__conteudo p a:hover {
+	color: #75141d;
+	transition: .3s;
 }
