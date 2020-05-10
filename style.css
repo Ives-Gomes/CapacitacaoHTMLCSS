@@ -686,6 +686,30 @@ footer {
 	color: red;
 }
 
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	70% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(1.1);
+	}
+}
+
+.pulse {
+	animation: pulse 3s infinite;
+    animation-direction: alternate;
+    animation-name: pulse;
+}
+
 .footer__conteudo p a {
 	text-decoration: none;
 	color: #fff;
@@ -694,4 +718,11 @@ footer {
 .footer__conteudo p a:hover {
 	color: #75141d;
 	transition: .3s;
+}
+
+/* RESPONSIVO */
+@media (max-width: 1440px) {
+	.navbar {
+		
+	}
 }
